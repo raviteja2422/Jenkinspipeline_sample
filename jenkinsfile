@@ -1,3 +1,4 @@
+properties([[$class: 'GithubProjectProperty', displayName: '', projectUrlStr: 'https://github.com/raviteja2422/Jenkinspipeline_sample.git/'], pipelineTriggers([upstream('branch1')])])
 pipeline {
     agent any 
     stages {
